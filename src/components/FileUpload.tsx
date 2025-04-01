@@ -1,9 +1,8 @@
-
 import React, { useState, useCallback } from 'react';
 import { Upload, FileAudio, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
-import { useToast } from '@/components/ui/toast';
+import { useToast } from '@/hooks/use-toast';
 
 interface FileUploadProps {
   onFileSelected: (file: File) => void;

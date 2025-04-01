@@ -1,5 +1,4 @@
-
-import { Music, WaveformIcon } from "lucide-react";
+import { Music } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const Header = () => {
