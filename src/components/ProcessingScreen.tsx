@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Loader, Waveform } from 'lucide-react';
+import { Loader, Music } from 'lucide-react';
 import { Progress } from '@/components/ui/progress';
 
 interface ProcessingScreenProps {
@@ -79,7 +79,7 @@ const ProcessingScreen: React.FC<ProcessingScreenProps> = ({
               <div className="absolute inset-0 rounded-full border-2 border-primary/20"></div>
               <div className="absolute inset-0 rounded-full border-2 border-primary border-t-transparent animate-spin"></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <Waveform className="h-8 w-8 text-primary animate-pulse" />
+                <Music className="h-8 w-8 text-primary animate-pulse" />
               </div>
             </div>
           </div>

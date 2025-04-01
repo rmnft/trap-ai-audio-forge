@@ -1,5 +1,5 @@
 
-import { Music, Waveform } from "lucide-react";
+import { Music, WaveformIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="relative h-10 w-10 mr-3">
           <div className="absolute inset-0 rounded-full red-glow animate-pulse-glow"></div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <Waveform className="h-6 w-6 text-primary" />
+            <Music className="h-6 w-6 text-primary" />
           </div>
         </div>
         <div>
